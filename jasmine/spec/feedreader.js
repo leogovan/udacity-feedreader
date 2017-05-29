@@ -36,6 +36,7 @@ $(function() {
             allFeeds.forEach(function(item, index){
                 var url = item.url;
                 expect(url).toBeDefined();
+                expect(url.length).not.toBe(0);
             });
          });
 
