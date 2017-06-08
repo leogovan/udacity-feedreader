@@ -73,7 +73,7 @@
           * should have two expectations: does the menu display when
           * clicked and does it hide when clicked again.
           */
-          it("menu changes visibility when menu icon is clicked", function(){
+        it("menu changes visibility when menu icon is clicked", function(){
             $('.menu-icon-link').click();
             expect(body).toBe(false);
         });
